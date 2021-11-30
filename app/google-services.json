@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22090491058",
+    "project_id": "cars-project-f51b1",
+    "storage_bucket": "cars-project-f51b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22090491058:android:e9fde2e79b9e9d92d555ab",
+        "android_client_info": {
+          "package_name": "com.reza.carsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22090491058-csismn3b76mguqrf8102ph1adgnes1ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq8NhImpDRmRg9lbAo6oO7rOXgZvikwGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22090491058-csismn3b76mguqrf8102ph1adgnes1ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
