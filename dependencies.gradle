@@ -31,6 +31,9 @@ ext {
     lifecycle_version = '2.2.0'
     material_version = '1.4.0'
     navigation_version = '2.3.5'
+    google_services_version = '4.3.10'
+    firebase_version = '29.0.0'
+    crashlytics_version = "2.8.0"
     recyclerView_version = '1.2.1'
     preference_version = "1.1.1"
     toast_lib_version = '1.4'
@@ -66,6 +69,8 @@ ext {
             "com.android.tools.build:gradle:$gradle_version",
             "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version",
             "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation_version",
+            "com.google.gms:google-services:$google_services_version",
+            "com.google.firebase:firebase-crashlytics-gradle:$crashlytics_version"
     ]
 
     // It's for App-Module-Level build.gradle file
@@ -84,6 +89,9 @@ ext {
             "androidx.recyclerview:recyclerview:$recyclerView_version",
             "androidx.preference:preference-ktx:$preference_version",
             "com.google.android.material:material:$material_version",
+
+            // Crashlytics error reporting
+            "com.google.firebase:firebase-crashlytics-ktx",
 
             // Pretty Toast
             "com.github.Spikeysanju:MotionToast:$toast_lib_version",
@@ -124,6 +132,8 @@ ext {
             // Gson
             "com.google.code.gson:gson:$gson_version",
     ]
+
+    platformDep = "com.google.firebase:firebase-bom:$firebase_version"
 
     compileDeps = [
 
