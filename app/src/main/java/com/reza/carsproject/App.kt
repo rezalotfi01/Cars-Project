@@ -10,6 +10,7 @@ import okhttp3.OkHttpClient
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
+import org.koin.core.logger.Level
 import timber.log.Timber
 
 class App: MultiDexApplication() {
@@ -24,7 +25,7 @@ class App: MultiDexApplication() {
 
     private fun initDI() {
         startKoin{
-            androidLogger()
+            androidLogger(if (BuildConfig.DEBUG) Level.ERROR else Level.NONE)
             androidContext(this@App)
             modules(appComponents)
         }
