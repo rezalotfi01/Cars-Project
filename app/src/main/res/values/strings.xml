@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Cars Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="error_title">Error occurred</string>
+    <string name="error_in_location">Cannot find your location </string>
+    <string name="finding_location">Finding your location…, please wait a bit</string>
 </resources>
