@@ -37,7 +37,7 @@ and Cars will appear on the map in a second, and also you can see your live loca
 map camera will zoom on your location. And also if you click on each cluster of the cars on the map, app will zoom and open the cluster
 and you can Also click on a pin(car) on the map. After first click other pins will disappear and you will see InfoBar on the car and after clicking again
 on that item, it will move to the detail screen. In detail screen you can see the VehicleTypeImage and scroll on the other details that shown.
-You can also click on the Quick Rent and it will call the specified API and show to toast as a result.
+You can also click on the Quick Rent and it will call the specified API and show a toast as a result.
 
 
 Questions
