@@ -9,7 +9,23 @@
         android:id="@+id/mapsFragment"
         android:name="com.reza.carsproject.screens.maps.ui.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.reza.carsproject.screens.detail.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="carId"
+            app:argType="integer" />
+    </fragment>
 
 
 </navigation>
