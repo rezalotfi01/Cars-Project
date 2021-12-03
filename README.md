@@ -8,6 +8,7 @@ This is an application for finding Cars on the map and renting Cars, that uses M
 In this app I was followed Google recommended [Guide to app architecture](https://developer.android.com/jetpack/docs/guide).
 
 ![](/screenshot/mvvm-arch.png)
+![](/screenshot/mvvm-arch.png)
 
 
 This application is written in Kotlin language
