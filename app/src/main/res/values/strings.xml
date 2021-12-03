@@ -6,4 +6,7 @@
     <string name="error_title">Error occurred</string>
     <string name="error_in_location">Cannot find your location </string>
     <string name="finding_location">Finding your location…, please wait a bit</string>
+    <string name="quick_rent">Quick Rent</string>
+    <string name="rent_successful">You have successfully rented the car!</string>
+    <string name="success">Success</string>
 </resources>
