@@ -1,4 +1,4 @@
-# Cars Renter App
+# Car Renter App
 
 Introduction
 ------------
