@@ -58,37 +58,37 @@ Tools and patterns Used
 --------------
 
 
-* [Patterns and Architecture]
-  * [MVVM]
-  * [Repository]
-  * [Modularization]
+* Patterns and Architecture
+  * MVVM
+  * Repository
+  * Modularization
 
-* [Core components]
-  * [AppCompat]
-  * [Android KTX]
+* Core components
+  * AppCompat
+  * Android KTX
   
-* [Architecture]
-  * [View Binding]
-  * [Lifecycles]
-  * [LiveData]
-  * [Navigation]
-  * [Room]
-  * [ViewModel]
+* Architecture
+  * View Binding
+  * Lifecycles
+  * LiveData
+  * Navigation and SafeArgs
+  * Room
+  * ViewModel
   
-* [UI]
-  * [Google Map]
-  * [Map Clustering]
-  * [Fragment]
-  * [Constraint Layout]
-  * [Material]
+* UI
+  * Google Map
+  * Map Clustering
+  * Fragment
+  * Constraint Layout
+  * Material
   
-* [Data flow]
-  * [RxJava]
-  * [Kotlin Coroutines Scopes]
-  * [Koin]
-  * [Retrofit 2]
-  * [OkHttp] 
-  * [GSON]
-  * [Coil]
-  * [Timber]
-  * [Stetho]
+* Data flow
+  * RxJava
+  * Kotlin Coroutines Scopes
+  * Koin
+  * Retrofit 2
+  * OkHttp
+  * GSON
+  * Coil
+  * Timber
+  * Stetho
