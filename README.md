@@ -10,7 +10,9 @@ In this app I was followed Google recommended [Guide to app architecture](https:
 ![](/screenshot/mvvm-arch.png)
 
 
-This application is written in Kotlin language.
+This application is written in Kotlin language
+
+I used Git Flow a branching model for this project.
 
 Android Jetpack and Architecture Components Used almost everywhere in the app. for example you can see usage of the ViewModel, LiveData,
 Lifecycles, Navigation Component and View Binding. See a complete list in "Libraries used" section.
