@@ -24,7 +24,7 @@ class MapsViewModel(private val repository: MapsRepository) : ViewModel() {
     val errorLiveData: LiveData<String> get() = _errorLiveData
 
 
-    private val _carsListLiveData = MutableLiveData<List<Car>>()
+    private val _carsListLiveData = LiveEvent<List<Car>>()
     val carsListLiveData: LiveData<List<Car>> get() = _carsListLiveData
 
     fun getAllCars() {
